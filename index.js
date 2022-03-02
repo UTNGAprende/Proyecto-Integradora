@@ -7,6 +7,7 @@ var apli = http.createServer(function(request, response){
         'Content-type':'text/html'
     })
     response.write("<h1>Hola mundo</h1>");
+    response.write("<h2>Esto es una prueba de git</h2>")
     response.end();
 });
 
